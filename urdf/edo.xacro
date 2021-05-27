@@ -58,7 +58,7 @@
             <parent link="${robot_prefix}_base_link"/>
             <child link="${robot_prefix}_link_1"/>
 	    <!-- original values -> origin xyz="0 0 ${0.135 + 0.202}" rpy="0 0 0"/-->
-            <origin xyz="0 0 ${0.135 + 0.202}" rpy="0 0 0"/>
+            <origin xyz="0 0 ${0.135 + 0.202}" rpy="0 0 0.523599"/>
             <axis xyz="0 0 1"/>
             <!-- Joint limits of the real robot determined by jogging. TechSheet is wrong -->
             <limit lower="${-178 * PI / 180}" upper="${178 * PI / 180}"
